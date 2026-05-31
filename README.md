@@ -7,14 +7,15 @@ A command-line version of the classic "Bulls and Cows" game, written in Python.
 The computer generates a random 4-digit number with **unique digits** (the first digit is not 0).
 The player tries to guess the number in a limited number of attempts.
 
-- **Bulls** – correct digit in the correct position.
-- **Cows** – correct digit but in the wrong position.
+- **Bull** – a correct digit in the correct position.
+- **Cow** – a correct digit but in the wrong position.
 
 ## How to Run
 
 1. Make sure you have Python 3 installed.
-2. Clone this repository or download `BullsAndCows.py`.
-3. Run the game in your terminal:
+2. Download `BullsAndCows.py`.
+3. Go to the directory where this file was downloaded.
+4. Run the game in your terminal:
 
 ```bash
 
@@ -39,11 +40,7 @@ When starting the game, you can choose a difficulty level:
 
 ## Implementation Details
 
-- Uses Python's `random` module to generate the secret number.
-- Uses `while` and `for` loops, as well as `if/elif/else` conditions.
-- User input is validated using loops until a correct value is provided.
+- The game uses Python's `random` module to generate the secret number.
+- The game uses `while` and `for` loops, as well as `if/elif/else` conditions.
+- The game uses input is validated using loops until a correct value is provided.
 - The game can be played multiple times in a single session.
-
-## Author
-
-Educational Python implementation of the "Bulls and Cows" game.
