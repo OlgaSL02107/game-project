@@ -2,7 +2,7 @@ import random
 
 def start_game(): #Начало и конец игры
     print('🐂🐄🐂🐄🐂🐄 ================== Bulls & Cows ================== 🐂🐄🐂🐄🐂🐄\n')
-    print('================================= Game Rules ==================================')
+    print('=================================== Game Rules ================================')
     print(' The computer guesses a 4-digit number, in which all the digits are different.\n'
           '                     Your task is to guess the number.\n'
           'After each attempt, the computer gives you a hint in the form of bulls and cows:\n'
